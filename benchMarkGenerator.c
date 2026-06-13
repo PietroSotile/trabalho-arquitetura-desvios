@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Gera um programa com n branches consecutivos seguindo a seguinte estrutura:
+    //     movl  -4(%rbp), %eax    ; carrega x          -> 3 bytes
+    //     cmpl  $9, %eax          ; compara            -> 3 bytes    
+    //     jg    .L2               ; branch em si       -> 2 bytes
+    //     movl  $0, -4(%rbp)      ; x = 0              -> 7 bytes
 void gerar_benchmark(int n_branches, int distancia, int n_iter, const char *filename) {
     int n_nops = distancia - 15;
     if (n_nops < 0) {
