@@ -1,0 +1,240 @@
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b512_16 
+
+ Performance counter stats for './b512_16':
+
+     5.130.028.426      branches:u                                                            
+            25.997      branch-misses:u                                                       
+
+       2,363278370 seconds time elapsed
+
+       2,346783000 seconds user
+       0,000993000 seconds sys
+
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b512_32
+
+ Performance counter stats for './b512_32':
+
+     5.130.045.195      branches:u                                                            
+            71.954      branch-misses:u                                                       
+
+      11,272490409 seconds time elapsed
+
+      11,072949000 seconds user
+       0,016569000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b512_64
+
+ Performance counter stats for './b512_64':
+
+     5.130.056.483      branches:u                                                            
+           132.787      branch-misses:u                                                       
+
+      29,641429432 seconds time elapsed
+
+      29,431962000 seconds user
+       0,003823000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ gcc -O0 bench_512_d128.c -o b512_128
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b512_128
+
+ Performance counter stats for './b512_128':
+
+     5.130.145.005      branches:u                                                            
+            81.645      branch-misses:u                                                       
+
+      65,637641428 seconds time elapsed
+
+      64,482413000 seconds user
+       0,061627000 seconds sys
+
+
+benches depois de fechar os programas:
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b512_128
+
+ Performance counter stats for './b512_128':
+
+     5.130.091.072      branches:u                                                            
+            31.546      branch-misses:u                                                       
+
+      64,235647575 seconds time elapsed
+
+      63,992424000 seconds user
+       0,000996000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b512_16
+
+ Performance counter stats for './b512_16':
+
+     5.130.028.994      branches:u                                                            
+            15.061      branch-misses:u                                                       
+
+       2,223858043 seconds time elapsed
+
+       2,195551000 seconds user
+       0,004996000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b512_32
+
+ Performance counter stats for './b512_32':
+
+     5.130.039.798      branches:u                                                            
+            33.536      branch-misses:u                                                       
+
+      10,975149261 seconds time elapsed
+
+      10,845918000 seconds user
+       0,031141000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b512_64
+
+ Performance counter stats for './b512_64':
+
+     5.130.054.919      branches:u                                                            
+            63.530      branch-misses:u                                                       
+
+      28,851328069 seconds time elapsed
+
+      28,747296000 seconds user
+       0,000000000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b512_128
+
+ Performance counter stats for './b512_128':
+
+     5.130.099.091      branches:u                                                            
+            85.353      branch-misses:u                                                       
+
+      65,553060516 seconds time elapsed
+
+      65,015842000 seconds user
+       0,011558000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ 
+
+
+######## BRANCHES DE 1024
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b1024_16 
+
+ Performance counter stats for './b1024_16':
+
+    10.250.034.598      branches:u                                                            
+            53.143      branch-misses:u                                                       
+
+       4,443979967 seconds time elapsed
+
+       4,362746000 seconds user
+       0,004937000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b1024_32
+
+ Performance counter stats for './b1024_32':
+
+    10.250.065.581      branches:u                                                            
+           122.684      branch-misses:u                                                       
+
+      22,236788323 seconds time elapsed
+
+      21,864757000 seconds user
+       0,023774000 seconds sys
+
+
+#############  NOVOS TESTES
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ gcc -O0 bench_256_d16.c -o b256_16
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ gcc -O0 bench_256_d32.c -o b256_32
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ gcc -O0 bench_256_d64.c -o b256_64
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ gcc -O0 bench_256_d128.c -o b256_128
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b256_16
+
+ Performance counter stats for './b256_16':
+
+     2.570.027.119      branches:u                                                            
+             3.249      branch-misses:u                                                       
+
+       1,095159555 seconds time elapsed
+
+       1,090509000 seconds user
+       0,000999000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b256_32
+
+ Performance counter stats for './b256_32':
+
+     2.570.031.505      branches:u                                                            
+             4.539      branch-misses:u                                                       
+
+       5,455638341 seconds time elapsed
+
+       5,437932000 seconds user
+       0,000996000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b256_64
+
+ Performance counter stats for './b256_64':
+
+     2.570.040.258      branches:u                                                            
+            12.668      branch-misses:u                                                       
+
+      14,214770679 seconds time elapsed
+
+      14,169599000 seconds user
+       0,000994000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b256_128
+
+ Performance counter stats for './b256_128':
+
+     2.570.058.298      branches:u                                                            
+            12.523      branch-misses:u                                                       
+
+      31,733244532 seconds time elapsed
+
+      31,608713000 seconds user
+       0,000000000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b128_16
+Workload failed: No such file or directory
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ gcc -O0 bench_128_d16.c -o b128_16
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ gcc -O0 bench_128_d16.c -o b128_32
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b128_16
+
+ Performance counter stats for './b128_16':
+
+     1.290.026.852      branches:u                                                            
+             4.234      branch-misses:u                                                       
+
+       0,564285657 seconds time elapsed
+
+       0,553744000 seconds user
+       0,000989000 seconds sys
+
+
+[leal@lenovo-81tr trabalho-arquitetura-desvios]$ perf stat -e branches,branch-misses ./b128_32
+
+ Performance counter stats for './b128_32':
+
+     1.290.026.865      branches:u                                                            
+             5.439      branch-misses:u                                                       
+
+       0,565086649 seconds time elapsed
+
+       0,553636000 seconds user
+       0,001951000 seconds sys
+
+

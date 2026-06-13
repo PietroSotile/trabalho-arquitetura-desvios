@@ -42,14 +42,14 @@ void gerar_benchmark(int n_branches, int distancia, int n_iter, const char *file
 
 int main() {
     // Teste 1: 512 branches, variando distancia
-    gerar_benchmark(512, 16,  10000000, "bench_512_d16.c");
-    gerar_benchmark(512, 32,  10000000, "bench_512_d32.c");
-    gerar_benchmark(512, 64,  10000000, "bench_512_d64.c");
-    gerar_benchmark(512, 128, 10000000, "bench_512_d128.c");
+    gerar_benchmark(256, 16,  10000000, "bench_256_d16.c");
+    gerar_benchmark(256, 32,  10000000, "bench_256_d32.c");
+    gerar_benchmark(256, 64,  10000000, "bench_256_d64.c");
+    gerar_benchmark(256, 128, 10000000, "bench_256_d128.c");
 
     // Teste 2: 1024 branches (verificacao do tamanho)
-    gerar_benchmark(1024, 16,  10000000, "bench_1024_d16.c");
-    gerar_benchmark(1024, 32,  10000000, "bench_1024_d32.c");
+    gerar_benchmark(128, 16,  10000000, "bench_128_d16.c");
+    gerar_benchmark(128, 32,  10000000, "bench_128_d32.c");
 
     return 0;
 }
