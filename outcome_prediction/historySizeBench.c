@@ -28,7 +28,8 @@ void gerar_fase1(int l, int n_iter, const char *filename) {
 }
 
 // Essa fase consiste em adicionar dummy branches de modo a identificar se o outcome predictor é
-// local ou global. Ao adicionar dummy branches, se for global após algum tempo o MPR deve começar a errar 
+// local ou global. Ao adicionar dummy branches, se for global após algum tempo o MPR deve começar a errar
+// NOTA: o l do parametro é o l descoberto na fase 1 
 void gerar_fase2(int l, int n_dummies, int n_iter, const char *filename) {
     FILE *f = fopen(filename, "w");
     if (!f) { printf("Erro ao abrir %s\n", filename); return; }
