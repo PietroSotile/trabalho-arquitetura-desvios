@@ -1,0 +1,14 @@
+===== fase2_l22 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/v2/fase2_l22':
+
+       440.028.350      branches:u                                                            
+           457.211      branch-misses:u                                                       
+
+       0,340230959 seconds time elapsed
+
+       0,338088000 seconds user
+       0,000919000 seconds sys
+
+
+
