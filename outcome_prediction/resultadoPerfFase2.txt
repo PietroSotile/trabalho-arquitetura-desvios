@@ -1,0 +1,266 @@
+===== fase2_l10 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l10':
+
+        20.028.039      branches:u                                                            
+            22.731      branch-misses:u                                                       
+
+       0,027165412 seconds time elapsed
+
+       0,026015000 seconds user
+       0,000988000 seconds sys
+
+
+
+===== fase2_l11 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l11':
+
+        20.028.042      branches:u                                                            
+           197.078      branch-misses:u                                                       
+
+       0,032881953 seconds time elapsed
+
+       0,030689000 seconds user
+       0,001919000 seconds sys
+
+
+
+===== fase2_l12 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l12':
+
+        20.028.043      branches:u                                                            
+             4.766      branch-misses:u                                                       
+
+       0,026986966 seconds time elapsed
+
+       0,025732000 seconds user
+       0,000926000 seconds sys
+
+
+
+===== fase2_l13 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l13':
+
+        20.028.037      branches:u                                                            
+             2.628      branch-misses:u                                                       
+
+       0,027451231 seconds time elapsed
+
+       0,026423000 seconds user
+       0,000915000 seconds sys
+
+
+
+===== fase2_l14 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l14':
+
+        20.028.038      branches:u                                                            
+             2.548      branch-misses:u                                                       
+
+       0,027718763 seconds time elapsed
+
+       0,027634000 seconds user
+       0,000000000 seconds sys
+
+
+
+===== fase2_l15 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l15':
+
+        20.028.042      branches:u                                                            
+            10.265      branch-misses:u                                                       
+
+       0,025695839 seconds time elapsed
+
+       0,024476000 seconds user
+       0,000921000 seconds sys
+
+
+
+===== fase2_l16 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l16':
+
+        20.028.034      branches:u                                                            
+             2.629      branch-misses:u                                                       
+
+       0,023398814 seconds time elapsed
+
+       0,022265000 seconds user
+       0,000978000 seconds sys
+
+
+
+===== fase2_l17 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l17':
+
+        20.028.041      branches:u                                                            
+             2.731      branch-misses:u                                                       
+
+       0,025675813 seconds time elapsed
+
+       0,024414000 seconds user
+       0,000910000 seconds sys
+
+
+
+===== fase2_l18 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l18':
+
+        20.028.048      branches:u                                                            
+           678.491      branch-misses:u                                                       
+
+       0,038036157 seconds time elapsed
+
+       0,037835000 seconds user
+       0,000000000 seconds sys
+
+
+
+===== fase2_l19 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l19':
+
+        20.028.077      branches:u                                                            
+             2.850      branch-misses:u                                                       
+
+       0,028473150 seconds time elapsed
+
+       0,026680000 seconds user
+       0,000929000 seconds sys
+
+
+
+===== fase2_l2 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l2':
+
+        20.028.046      branches:u                                                            
+             2.692      branch-misses:u                                                       
+
+       0,023177021 seconds time elapsed
+
+       0,021909000 seconds user
+       0,000958000 seconds sys
+
+
+
+===== fase2_l3 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l3':
+
+        20.028.055      branches:u                                                            
+             2.628      branch-misses:u                                                       
+
+       0,034718184 seconds time elapsed
+
+       0,034305000 seconds user
+       0,000000000 seconds sys
+
+
+
+===== fase2_l4 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l4':
+
+        20.028.036      branches:u                                                            
+             2.609      branch-misses:u                                                       
+
+       0,023153062 seconds time elapsed
+
+       0,021929000 seconds user
+       0,000994000 seconds sys
+
+
+
+===== fase2_l5 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l5':
+
+        20.028.070      branches:u                                                            
+             2.716      branch-misses:u                                                       
+
+       0,034585445 seconds time elapsed
+
+       0,032951000 seconds user
+       0,000856000 seconds sys
+
+
+
+===== fase2_l6 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l6':
+
+        20.028.070      branches:u                                                            
+             2.692      branch-misses:u                                                       
+
+       0,027993098 seconds time elapsed
+
+       0,024954000 seconds user
+       0,002047000 seconds sys
+
+
+
+===== fase2_l7 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l7':
+
+        20.028.054      branches:u                                                            
+             2.732      branch-misses:u                                                       
+
+       0,034075873 seconds time elapsed
+
+       0,033654000 seconds user
+       0,000000000 seconds sys
+
+
+
+===== fase2_l8 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l8':
+
+        20.028.064      branches:u                                                            
+             2.546      branch-misses:u                                                       
+
+       0,025613495 seconds time elapsed
+
+       0,022911000 seconds user
+       0,001939000 seconds sys
+
+
+
+===== fase2_l9 =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_l9':
+
+        20.028.043      branches:u                                                            
+             2.720      branch-misses:u                                                       
+
+       0,031710084 seconds time elapsed
+
+       0,031567000 seconds user
+       0,000000000 seconds sys
+
+
+
+===== fase2_local_ou_global =====
+
+ Performance counter stats for '/home/leal/Documents/3Semestre/Arquitetura/trabalho_desvios/trabalho-arquitetura-desvios/outcome_prediction/fase2_local_ou_global':
+
+        20.028.037      branches:u                                                            
+             2.582      branch-misses:u                                                       
+
+       0,026066199 seconds time elapsed
+
+       0,025978000 seconds user
+       0,000000000 seconds sys
+
+
+

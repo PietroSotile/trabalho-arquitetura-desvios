@@ -55,17 +55,20 @@ void gerar_fase2(int l, int n_dummies, int n_iter, const char *filename) {
 
 int main() {
     // Fase 1 - achar L variando o padrao
-    for (int l = 2; l <= 20; l++) {
-        char filename[64];
-        sprintf(filename, "fase1_l%d.c", l);
-        gerar_fase1(l, 10000000, filename);
-    }
+    //for (int l = 2; l <= 20; l++) {
+    //    char filename[64];
+    //    sprintf(filename, "fase1_l%d.c", l);
+    //    gerar_fase1(l, 10000000, filename);
+    // }
 
     // // Fase 2 - inserir dummies pra distinguir local de global
-    // // assumindo L=6 como exemplo, ajustar depois
-    // int L = 6;
-    // int n_dummies = 2 * (L - 1);
-    // gerar_fase2(L, n_dummies, 10000000, "fase2_local_ou_global.c");
-
+    // assumindo L=6 como exemplo, ajustar depois
+    for (int L = 2; L <= 19; L++) {
+        char filename[64];
+        int n_dummies = 2 * (L - 1);
+        sprintf(filename, "fase2_l%d.c", L);
+        gerar_fase2(L, n_dummies, 10000000, filename);
+    }
+    
     return 0;
 }
